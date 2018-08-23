@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GoodGaming:jar">
+    <output-path>$PROJECT_DIR$/../../Java/plugins</output-path>
+    <root id="archive" name="GoodGaming.jar">
+      <element id="module-output" name="GoodGaming" />
+    </root>
+  </artifact>
+</component>
