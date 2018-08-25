@@ -16,3 +16,11 @@ commands:
     usage: "Usage: /<command> give <player> <amount>"
     permission: safeeconomy.command.eco
     permission-message: 'Sorry! You don''t have permission for this!'
+
+permissions:
+  safeeconomy.command.bal:
+    description: Allows to use the /bal command
+    default: op
+  safeeconomy.command.eco:
+    description: Allows the use of /economy
+    default: op
