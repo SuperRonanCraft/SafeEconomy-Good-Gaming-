@@ -1,4 +1,18 @@
-main: me.SuperRonanCraft.GoodGaming.Main
+main: GG.SuperRonanCraft.SafeEconomy.Main
 name: GoodGaming
 version: 1.0.0
 author: SuperRonanCraft
+
+commands:
+  balance:
+    description: check balance
+    aliases: bal
+    usage: "Usage: /<command>"
+    permission: safeeconomy.command.bal
+    permission-message: 'Sorry! You do not have permission for this!'
+  econommy:
+    description: economy command
+    aliases: eco
+    usage: "Usage: /<command> give <player> <amount>"
+    permission: safeeconomy.command.eco
+    permission-message: 'Sorry! You do not have permission for this!'

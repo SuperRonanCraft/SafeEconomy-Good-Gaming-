@@ -1,0 +1,17 @@
+Messages:
+  Prefix: '&7[&6SafeEconomy&7]'
+  Invalid: '%prefix% &cSorry! Invalid arguemtns! &7Try "&f/%command% help&7" for help!'
+  Give:
+    Player: '%prefix% The player name &f%player% &7is invalid!'
+    Amount: '%prefix% The amount of &f%amount%&7 is invalid!'
+    Success: '%prefix% &aSuccessfully given &f%player% $%amount%''s&a!'
+  Balance: '%prefix% &aYour balance is %amount%!'
+  Usage:
+    Give: '&7Usage: &f/%command% give <player> <amount>'
+
+Mysql:
+  host: 'localhost'
+  port: ''
+  database: 'Economy'
+  username: 'admin'
+  password: 'password'
