@@ -9,10 +9,10 @@ commands:
     aliases: bal
     usage: "Usage: /<command>"
     permission: safeeconomy.command.bal
-    permission-message: 'Sorry! You do not have permission for this!'
+    permission-message: 'Sorry! You don''t have permission for this!'
   econommy:
     description: economy command
     aliases: eco
     usage: "Usage: /<command> give <player> <amount>"
     permission: safeeconomy.command.eco
-    permission-message: 'Sorry! You do not have permission for this!'
+    permission-message: 'Sorry! You don''t have permission for this!'
